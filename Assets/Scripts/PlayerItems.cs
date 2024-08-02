@@ -7,6 +7,7 @@ public class PlayerItems : MonoBehaviour
     public int totalRise;
     public int totalSlime;
     public int totalRisottoSlime;
+    public int totalGold;
 
 
     // Start is called before the first frame update
@@ -35,4 +36,14 @@ public class PlayerItems : MonoBehaviour
     {
         return totalRisottoSlime;
     }
+
+    public int getTotalGold()
+    {
+        return totalGold;
+    }
+    public void setTotalGold(int totalGold)
+    {
+        this.totalGold = totalGold;
+    }
+
 }
