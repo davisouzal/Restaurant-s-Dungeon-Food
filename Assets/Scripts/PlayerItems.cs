@@ -9,19 +9,6 @@ public class PlayerItems : MonoBehaviour
     public int totalRisottoSlime;
     public int totalGold;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public int getTotalRice()
     {
         return totalRise;
@@ -41,6 +28,22 @@ public class PlayerItems : MonoBehaviour
     {
         return totalGold;
     }
+
+    public void setTotalRice(int totalRise)
+    {
+        this.totalRise = totalRise;
+    }
+
+    public void setTotalSlime(int totalSlime)
+    {
+        this.totalSlime = totalSlime;
+    }
+
+    public void setTotalRisottoSlime(int totalRisottoSlime)
+    {
+        this.totalRisottoSlime = totalRisottoSlime;
+    }
+
     public void setTotalGold(int totalGold)
     {
         this.totalGold = totalGold;
