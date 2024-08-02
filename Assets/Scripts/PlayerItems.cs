@@ -7,6 +7,7 @@ public class PlayerItems : MonoBehaviour
     public int totalRise;
     public int totalSlime;
     public int totalRisottoSlime;
+    public int totalGold;
 
     public int getTotalRice()
     {
@@ -23,6 +24,11 @@ public class PlayerItems : MonoBehaviour
         return totalRisottoSlime;
     }
 
+    public int getTotalGold()
+    {
+        return totalGold;
+    }
+
     public void setTotalRice(int totalRise)
     {
         this.totalRise = totalRise;
@@ -36,6 +42,11 @@ public class PlayerItems : MonoBehaviour
     public void setTotalRisottoSlime(int totalRisottoSlime)
     {
         this.totalRisottoSlime = totalRisottoSlime;
+    }
+
+    public void setTotalGold(int totalGold)
+    {
+        this.totalGold = totalGold;
     }
 
 }
