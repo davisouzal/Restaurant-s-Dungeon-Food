@@ -8,6 +8,19 @@ public class PlayerItems : MonoBehaviour
     public int totalSlime;
     public int totalRisottoSlime;
 
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
     public int getTotalRice()
     {
         return totalRise;
@@ -22,20 +35,4 @@ public class PlayerItems : MonoBehaviour
     {
         return totalRisottoSlime;
     }
-
-    public void setTotalRice(int totalRise)
-    {
-        this.totalRise = totalRise;
-    }
-
-    public void setTotalSlime(int totalSlime)
-    {
-        this.totalSlime = totalSlime;
-    }
-
-    public void setTotalRisottoSlime(int totalRisottoSlime)
-    {
-        this.totalRisottoSlime = totalRisottoSlime;
-    }
-
 }
