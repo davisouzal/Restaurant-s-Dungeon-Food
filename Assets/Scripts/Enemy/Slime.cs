@@ -11,6 +11,7 @@ public class Slime : MonoBehaviour
     public float totalHealth;
     public float currentHealth;
     public Image healthBar;
+    public bool isDead;
 
 
     [Header("Components")]
@@ -30,25 +31,29 @@ public class Slime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(player.transform.position);
+        if (!isDead)
+        {
+            agent.SetDestination(player.transform.position);
 
-        if(Vector2.Distance(transform.position, player.transform.position) <= agent.stoppingDistance)
-        {
-            animControl.PlayAnim(2);
-        }
-        else
-        {
-            animControl.PlayAnim(1);
-        }
+            if (Vector2.Distance(transform.position, player.transform.position) <= agent.stoppingDistance)
+            {
+                animControl.PlayAnim(2);
+            }
+            else
+            {
+                animControl.PlayAnim(1);
+            }
 
-        float posX= player.transform.position.x - transform.position.x;
-        if(posX > 0)
-        {
-            transform.eulerAngles = new Vector2(0, 0);
+            float posX = player.transform.position.x - transform.position.x;
+            if (posX > 0)
+            {
+                transform.eulerAngles = new Vector2(0, 0);
+            }
+            else
+            {
+                transform.eulerAngles = new Vector2(0, 180);
+            }
         }
-        else
-        {
-            transform.eulerAngles = new Vector2(0, 180);
-        }
+        
     }
 }

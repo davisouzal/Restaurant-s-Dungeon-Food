@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPoint: {fileID: 1722537627}
-  radius: 2
+  radius: 6
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
@@ -856,6 +856,22 @@ CompositeCollider2D:
       - X: 1356929920
         Y: -716157440
       - X: 1356929920
+        Y: -100
+      - X: 1206160000
+        Y: -100
+      - X: 1206160000
+        Y: -452309984
+      - X: -1206160000
+        Y: -452309984
+      - X: -1206160000
+        Y: 603080000
+      - X: 1206160000
+        Y: 603080000
+      - X: 1206160000
+        Y: 150770100
+      - X: 1356929920
+        Y: 150770100
+      - X: 1356929920
         Y: 753849920
       - X: -1356929920
         Y: 753849920
@@ -863,14 +879,6 @@ CompositeCollider2D:
         Y: -735003712
       - X: -1215583104
         Y: -735003712
-    - - X: -1206160000
-        Y: -452309984
-      - X: -1206160000
-        Y: 603080000
-      - X: 1206160000
-        Y: 603080000
-      - X: 1206160000
-        Y: -452309984
   m_CompositePaths:
     m_Paths:
     - - {x: -121.55833, y: -73.500374}
@@ -926,13 +934,17 @@ CompositeCollider2D:
       - {x: 120.61603, y: -73.500374}
       - {x: 134.7507, y: -73.50036}
       - {x: 135.693, y: -71.61574}
-      - {x: 135.69296, y: 75.384995}
-      - {x: -135.693, y: 75.384964}
-      - {x: -135.69296, y: -73.500374}
-    - - {x: 120.616005, y: -45.23097}
+      - {x: 135.69296, y: -0.00001}
+      - {x: 120.616005, y: -0.0000393}
+      - {x: 120.615974, y: -45.231}
       - {x: -120.616005, y: -45.23097}
       - {x: -120.615974, y: 60.308002}
       - {x: 120.616005, y: 60.30797}
+      - {x: 120.61603, y: 15.07701}
+      - {x: 135.693, y: 15.07704}
+      - {x: 135.69296, y: 75.384995}
+      - {x: -135.693, y: 75.384964}
+      - {x: -135.69296, y: -73.500374}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &544867125
@@ -1416,15 +1428,6 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 8, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
   - first: {x: -9, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -1643,7 +1646,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 791737d19b5b89c4e999cd77106ae8a1, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 4b667e99cf3727d47bc7483bdd42bf4e, type: 2}
@@ -1684,7 +1687,7 @@ Tilemap:
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 12b74643dd114164598c33ba421f65a3, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data: {fileID: -4330949735555641005, guid: 66e81ba31a1e4b84390f4e2abb5dfa05, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 5540061561785502580, guid: 66e81ba31a1e4b84390f4e2abb5dfa05, type: 3}
@@ -1725,7 +1728,7 @@ Tilemap:
   - m_RefCount: 5
     m_Data: {fileID: 5328675697862235545, guid: 66e81ba31a1e4b84390f4e2abb5dfa05, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 68
+  - m_RefCount: 67
     m_Data:
       e00: 1
       e01: 0
@@ -1744,7 +1747,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 68
+  - m_RefCount: 67
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -6028,7 +6031,7 @@ MonoBehaviour:
   m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_FillOrigin: 1
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &2134282674
@@ -6140,6 +6143,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6417771590057621271, guid: 43036ecce40045b458bff34878346971, type: 3}
+      propertyPath: slimePrefab
+      value: 
+      objectReference: {fileID: 4585968407569126223, guid: 222c6162e21798245aba460a72cc72ae, type: 3}
     - target: {fileID: 6417771591129124024, guid: 43036ecce40045b458bff34878346971, type: 3}
       propertyPath: m_Name
       value: Slime
@@ -6152,6 +6159,14 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2134282673}
+    - target: {fileID: 6417771591129124028, guid: 43036ecce40045b458bff34878346971, type: 3}
+      propertyPath: totalHealth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417771591129124028, guid: 43036ecce40045b458bff34878346971, type: 3}
+      propertyPath: currentHealth
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6417771591129124029, guid: 43036ecce40045b458bff34878346971, type: 3}
       propertyPath: m_LocalPosition.x
       value: 110.9
