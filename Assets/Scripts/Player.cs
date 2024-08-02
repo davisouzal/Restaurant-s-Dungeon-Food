@@ -1,15 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    [Header("HUD")]
+    public float currentHealth;
+    public Image healthBar;
+    public float totalHealth;
+
 
     [SerializeField] private float speed;
     private Vector2 _direction;
     private Rigidbody2D rig;
     private float initialSpeed;
     private bool _isCutting;
+    public bool isDead; 
 
 
 
@@ -24,6 +31,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = totalHealth;
         rig = GetComponent<Rigidbody2D>();
         initialSpeed = speed;
     }
@@ -35,8 +43,13 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        OnInput();
-        OnCutting();
+        if (!isDead)
+        {
+            OnInput();
+            OnCutting();
+
+        }
+
     }
 
     #region movement

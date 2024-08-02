@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AnimationPlayer : MonoBehaviour
 {
-    [Header("Attack Settings") ]
+    
+
+    [Header("Attack Settings")]
     [SerializeField] private Transform attackPoint;
     [SerializeField] private float radius;
     [SerializeField] private LayerMask enemyLayer;
@@ -22,6 +25,7 @@ public class AnimationPlayer : MonoBehaviour
     {
         player = GetComponent<Player>();
         anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -71,11 +75,24 @@ public class AnimationPlayer : MonoBehaviour
     }
     public void OnHit()
     {
-        if (!isHitting)
+        if (player.currentHealth <= 0)
         {
-            anim.SetTrigger("Hit");
-            isHitting = true;
+            anim.SetTrigger("die");
+            player.isDead = true;
+            Destroy(player.gameObject, 1f);
         }
+        else
+        {
+            if (!isHitting)
+            {
+                player.currentHealth--;
+                anim.SetTrigger("Hit");
+                isHitting = true;
+                player.healthBar.fillAmount = player.currentHealth / player.totalHealth;
+            }
+        }
+
+        
         
     }
 
@@ -84,11 +101,15 @@ public class AnimationPlayer : MonoBehaviour
 #region Attack
     public void OnAttack()  
     {
-        Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, radius, enemyLayer);
-        if (hit != null)
+        if (!player.isDead)
         {
-            hit.gameObject.GetComponentInChildren<AnimateControl>().OnHit();
+            Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, radius, enemyLayer);
+            if (hit != null)
+            {
+                hit.gameObject.GetComponentInChildren<AnimateControl>().OnHit();
+            }
         }
+        
     }
 
     private void OnDrawGizmosSelected()
