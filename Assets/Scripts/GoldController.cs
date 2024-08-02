@@ -1,32 +1,55 @@
 ﻿using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
+
+
 public class GoldController : MonoBehaviour
+
 {
+
     public PlayerItems playerItems;
 
-    public void OnMouseDown()
+    public void Update()
     {
-        Debug.Log("Tá clicando");
-        SellingRisottoSlime();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SellingRisottoSlime();
+        }
     }
+
 
     private void SellingRisottoSlime()
+
     {
+
         int goldCount = playerItems.getTotalGold();
+
         int risottoCount = playerItems.getTotalRisottoSlime();
 
-        if(risottoCount > 0)
+
+        if (risottoCount > 0)
+
         {
+
             playerItems.setTotalRisottoSlime(risottoCount - 1);
+
             playerItems.setTotalGold(goldCount + 2);
 
+
         }
 
+
         else
+
         {
+
             Debug.Log("Não vendeu");
+
         }
+
     }
+
 }
