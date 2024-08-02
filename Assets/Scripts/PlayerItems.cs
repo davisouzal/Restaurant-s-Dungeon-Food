@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerItems : MonoBehaviour
 {
-    public int totalRise = 2;
-    public int totalSlime = 1 ;
-    public int totalRisottoSlime = 1;
+    public int totalRise;
+    public int totalSlime;
+    public int totalRisottoSlime;
 
 
     // Start is called before the first frame update
