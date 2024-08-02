@@ -40,6 +40,11 @@ public class AnimationPlayer : MonoBehaviour
         {
             transform.eulerAngles = new Vector2(0, 180);
         }
+
+        if (player.IsCutting)
+        {
+            anim.SetInteger("transition", 2);
+        }
     }
     #endregion
 }
