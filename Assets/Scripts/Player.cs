@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     private Vector2 _direction;
     private Rigidbody2D rig;
     private float initialSpeed;
+    private bool _isCutting;
+
 
 
     public Vector2 direction
@@ -16,6 +18,9 @@ public class Player : MonoBehaviour
         get { return _direction; }
         set { _direction = value; }
     }
+
+    public bool IsCutting { get => _isCutting; set => _isCutting = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +36,25 @@ public class Player : MonoBehaviour
     void Update()
     {
         OnInput();
+        OnCutting();
     }
 
     #region movement
 
+    void OnCutting()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            _isCutting = true;
+            speed = 0;
+
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            _isCutting = false;
+            speed = initialSpeed;
+        }
+    }
     void OnInput()
     {
         _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
@@ -43,6 +63,8 @@ public class Player : MonoBehaviour
     {
         rig.MovePosition(rig.position + _direction * speed * Time.deltaTime);
     }
+
+
     #endregion
 }
 
