@@ -6148,6 +6148,10 @@ PrefabInstance:
       propertyPath: health
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6417771591129124028, guid: 43036ecce40045b458bff34878346971, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 2134282673}
     - target: {fileID: 6417771591129124029, guid: 43036ecce40045b458bff34878346971, type: 3}
       propertyPath: m_LocalPosition.x
       value: 110.9
