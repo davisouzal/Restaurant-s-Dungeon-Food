@@ -10,8 +10,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig;
     private float initialSpeed;
     private bool _isCutting;
-    public float interactionDistance = 2.0f;
-    public KeyCode interactionKey = KeyCode.E;
+
+
 
     public Vector2 direction
     {
@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
         OnInput();
         OnCutting();
     }
+
     #region movement
 
     void OnCutting()

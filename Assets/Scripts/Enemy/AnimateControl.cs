@@ -11,6 +11,7 @@ public class AnimateControl : MonoBehaviour
     private AnimationPlayer player;
     private Animator anim;
     private Slime slime;
+    [SerializeField] private GameObject slimePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,20 +28,36 @@ public class AnimateControl : MonoBehaviour
 
     public void Attack()
     {
-        Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, radius, playerLayer);
-
-        if (hit != null)
+        if (!slime.isDead)
         {
-            player.OnHit();
+            Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, radius, playerLayer);
+
+            if (hit != null)
+            {
+                player.OnHit();
+            }
         }
+       
 
     }
     public void OnHit()
     {
-        anim.SetTrigger("Hit");
-        slime.currentHealth--;
+        
+        if(slime.currentHealth <=   0)
+        {
+            slime.isDead = true;
+            Instantiate(slimePrefab, transform.position + new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f), transform.rotation);
+            anim.SetTrigger("Die");
 
-        slime.healthBar.fillAmount = slime.currentHealth / slime.totalHealth;
+            Destroy(slime.gameObject, 1f);
+        }
+        else
+        {
+            anim.SetTrigger("Hit");
+            slime.currentHealth--;
+
+            slime.healthBar.fillAmount = slime.currentHealth / slime.totalHealth;
+        }
     }
 
     private void OnDrawGizmosSelected()
