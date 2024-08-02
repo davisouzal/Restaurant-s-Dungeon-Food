@@ -4,8 +4,19 @@ using UnityEngine;
 
 public class AnimationPlayer : MonoBehaviour
 {
+    [Header("Attack Settings") ]
+    [SerializeField] private Transform attackPoint;
+    [SerializeField] private float radius;
+    [SerializeField] private LayerMask enemyLayer;
+
     private Player player;
     private Animator anim;
+
+
+    private bool isHitting;
+    private float recoveryTime = 1f;
+    private float timeCount;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +28,17 @@ public class AnimationPlayer : MonoBehaviour
     void Update()
     {
         OnMove();
+
+        if (isHitting)
+        {
+            timeCount += Time.deltaTime;
+            if (timeCount >= recoveryTime)
+            {
+                isHitting = false;
+                timeCount = 0f;
+            }
+        }
+        
     }
     #region Movement
     void OnMove()
@@ -45,6 +67,34 @@ public class AnimationPlayer : MonoBehaviour
         {
             anim.SetInteger("transition", 2);
         }
+
     }
+    public void OnHit()
+    {
+        if (!isHitting)
+        {
+            anim.SetTrigger("Hit");
+            isHitting = true;
+        }
+        
+    }
+
+    #endregion
+
+#region Attack
+    public void OnAttack()  
+    {
+        Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, radius, enemyLayer);
+        if (hit != null)
+        {
+            hit.gameObject.GetComponentInChildren<AnimateControl>().OnHit();
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(attackPoint.position, radius);
+    }
+
     #endregion
 }

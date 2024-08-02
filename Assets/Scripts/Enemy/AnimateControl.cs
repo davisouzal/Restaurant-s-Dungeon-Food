@@ -8,11 +8,15 @@ public class AnimateControl : MonoBehaviour
     [SerializeField] private float radius;
     [SerializeField] private LayerMask playerLayer;
 
+    private AnimationPlayer player;
     private Animator anim;
+    private Slime slime;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        player = FindObjectOfType<AnimationPlayer>();
+        slime = GetComponentInParent<Slime>();
     }
 
     // Update is called once per frame
@@ -27,13 +31,16 @@ public class AnimateControl : MonoBehaviour
 
         if (hit != null)
         {
-
-        }
-        else
-        {
-
+            player.OnHit();
         }
 
+    }
+    public void OnHit()
+    {
+        anim.SetTrigger("Hit");
+        slime.currentHealth--;
+
+        slime.healthBar.fillAmount = slime.currentHealth / slime.totalHealth;
     }
 
     private void OnDrawGizmosSelected()
