@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class ExitMenuController : MonoBehaviour
 {
     public GameObject scrollView; // Referência ao ScrollView do menu
     public Button quitButton;     // Referência ao botão de sair
+    public Button closeButton;    // Referência ao botão de fechar o menu
+    public Button startButton;    // Referência ao botão de iniciar (voltar ao início)
 
     private bool isPaused = false;
 
@@ -13,8 +17,10 @@ public class ExitMenuController : MonoBehaviour
         // Esconde o menu ao iniciar
         scrollView.SetActive(false);
 
-        // Adiciona uma função ao clicar no botão de sair
+        // Adiciona funções aos botões
         quitButton.onClick.AddListener(QuitGame);
+        closeButton.onClick.AddListener(CloseMenu);
+        startButton.onClick.AddListener(GoToStartScene);
     }
 
     void Update()
@@ -33,6 +39,22 @@ public class ExitMenuController : MonoBehaviour
 
         // Pausa ou continua o jogo
         Time.timeScale = isPaused ? 0 : 1;
+    }
+
+    void CloseMenu()
+    {
+        // Desativa o menu e continua o jogo
+        scrollView.SetActive(false);
+        Time.timeScale = 1;
+        isPaused = false;
+    }
+
+    void GoToStartScene()
+    {
+        // Retorna à cena de início
+        Debug.Log("Loading Start Scene");
+        Time.timeScale = 1; // Garante que o jogo não permaneça pausado na cena de início
+        SceneManager.LoadSceneAsync("Play"); // Altere "StartScene" para o nome da sua cena de início
     }
 
     void QuitGame()
