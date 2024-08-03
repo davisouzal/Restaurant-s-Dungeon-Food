@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: fc3798d8c1213a64fade5568ecb432f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1203061395450389820
+    second: "bot\xF5es in\xEDcio (os)_0"
+  - first:
+      213: -8961429899589552315
+    second: "bot\xF5es in\xEDcio (os)_1"
+  - first:
+      213: -7507085742569914761
+    second: "bot\xF5es in\xEDcio (os)_2"
+  - first:
+      213: 1134613152344288540
+    second: "bot\xF5es in\xEDcio (os)_3"
+  - first:
+      213: -4326060958926731458
+    second: "bot\xF5es in\xEDcio (os)_4"
+  - first:
+      213: 3742297429315576808
+    second: "bot\xF5es in\xEDcio (os)_5"
+  - first:
+      213: 884578299548300500
+    second: "bot\xF5es in\xEDcio (os)_6"
+  - first:
+      213: 5317121451961812668
+    second: "bot\xF5es in\xEDcio (os)_7"
+  - first:
+      213: -2591683526154272442
+    second: "bot\xF5es in\xEDcio (os)_8"
+  - first:
+      213: 6299489304108702211
+    second: "bot\xF5es in\xEDcio (os)_9"
+  - first:
+      213: 2198233970614819673
+    second: "bot\xF5es in\xEDcio (os)_10"
+  - first:
+      213: 4112204574414267520
+    second: "bot\xF5es in\xEDcio (os)_11"
+  - first:
+      213: -3077168830650399681
+    second: "bot\xF5es in\xEDcio (os)_12"
+  - first:
+      213: -989794396185288019
+    second: "bot\xF5es in\xEDcio (os)_13"
+  - first:
+      213: 672189393712413125
+    second: "bot\xF5es in\xEDcio (os)_14"
+  - first:
+      213: 7161295908703779080
+    second: "bot\xF5es in\xEDcio (os)_15"
+  - first:
+      213: -2147622628343025680
+    second: "bot\xF5es in\xEDcio (os)_16"
+  - first:
+      213: -722939755676340009
+    second: "bot\xF5es in\xEDcio (os)_17"
+  - first:
+      213: 3860120568005221034
+    second: "bot\xF5es in\xEDcio (os)_18"
+  - first:
+      213: 3075805227694551492
+    second: "bot\xF5es in\xEDcio (os)_19"
+  - first:
+      213: 4463112142276057131
+    second: "bot\xF5es in\xEDcio (os)_20"
+  - first:
+      213: 54899935431712705
+    second: "bot\xF5es in\xEDcio (os)_21"
+  - first:
+      213: -2414781730655172715
+    second: "bot\xF5es in\xEDcio (os)_22"
+  - first:
+      213: -5660769846865835190
+    second: "bot\xF5es in\xEDcio (os)_23"
+  - first:
+      213: -8722199943145713527
+    second: "bot\xF5es in\xEDcio (os)_24"
+  - first:
+      213: 4817884511013882182
+    second: "bot\xF5es in\xEDcio (os)_25"
+  - first:
+      213: 5332970615503436624
+    second: "bot\xF5es in\xEDcio (os)_26"
+  - first:
+      213: -1109488594298292341
+    second: "bot\xF5es in\xEDcio (os)_27"
+  - first:
+      213: -2972301164283554077
+    second: "bot\xF5es in\xEDcio (os)_28"
+  - first:
+      213: -588513011189427667
+    second: "bot\xF5es in\xEDcio (os)_29"
+  - first:
+      213: 1897270019986853639
+    second: "bot\xF5es in\xEDcio (os)_30"
+  - first:
+      213: -3391119486168285458
+    second: "bot\xF5es in\xEDcio (os)_31"
+  - first:
+      213: 802291119056705599
+    second: "bot\xF5es in\xEDcio (os)_32"
+  - first:
+      213: -5704975121547270686
+    second: "bot\xF5es in\xEDcio (os)_33"
+  - first:
+      213: -5019834992519252671
+    second: "bot\xF5es in\xEDcio (os)_34"
+  - first:
+      213: -5718452899471738993
+    second: "bot\xF5es in\xEDcio (os)_35"
+  - first:
+      213: -6692092129918458833
+    second: "bot\xF5es in\xEDcio (os)_36"
+  - first:
+      213: -65906994989341624
+    second: "bot\xF5es in\xEDcio (os)_37"
+  - first:
+      213: -1545938110583623420
+    second: "bot\xF5es in\xEDcio (os)_38"
+  - first:
+      213: -8978420221122019871
+    second: "bot\xF5es in\xEDcio (os)_39"
+  - first:
+      213: -2476879937960324030
+    second: "bot\xF5es in\xEDcio (os)_0"
+  - first:
+      213: -8579993748173862112
+    second: "bot\xF5es in\xEDcio (os)_1"
+  - first:
+      213: -3988984472957234348
+    second: "bot\xF5es in\xEDcio (os)_2"
+  - first:
+      213: 5975545697835815153
+    second: "bot\xF5es in\xEDcio (os)_3"
+  - first:
+      213: 8781266219363816926
+    second: "bot\xF5es in\xEDcio (os)_4"
+  - first:
+      213: -2744818764507962672
+    second: "bot\xF5es in\xEDcio (os)_5"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_0"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244559ac1da50add0800000000000000
+      internalID: -2476879937960324030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_1"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 37
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b4601152dbde880800000000000000
+      internalID: -8579993748173862112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_2"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 37
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453d5d2a1c744a8c0800000000000000
+      internalID: -3988984472957234348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_3"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 20
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f01e9207276de250800000000000000
+      internalID: 5975545697835815153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_4"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 20
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed55153f9135dd970800000000000000
+      internalID: 8781266219363816926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_5"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 20
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d22da850e178e9d0800000000000000
+      internalID: -2744818764507962672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_6"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d47898d647a64c00800000000000000
+      internalID: 884578299548300500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_7"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 3
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb60bcb0ac53ac940800000000000000
+      internalID: 5317121451961812668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xF5es in\xEDcio (os)_8"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c755709d780cd0800000000000000
+      internalID: -2591683526154272442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

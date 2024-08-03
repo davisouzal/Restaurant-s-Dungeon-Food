@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: cc427b672aadaef469646f822f9461a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8841749630322558123
+    second: title options (os) (1)_0
+  - first:
+      213: 8296190994452263094
+    second: title options (os) (1)_1
+  - first:
+      213: -5942909192777699902
+    second: title options (os) (1)_2
+  - first:
+      213: -2703325813222434950
+    second: title options (os) (1)_3
+  - first:
+      213: -5456632827501255675
+    second: title options (os) (1)_4
+  - first:
+      213: -3966899663622487706
+    second: title options (os) (1)_5
+  - first:
+      213: -5089448440610154185
+    second: title options (os) (1)_6
+  - first:
+      213: 7565528904325095770
+    second: title options (os) (1)_7
+  - first:
+      213: -4777450372531171894
+    second: title options (os) (1)_8
+  - first:
+      213: -4543704757890729583
+    second: title options (os) (1)_9
+  - first:
+      213: -8902730591929078811
+    second: title options (os) (1)_10
+  - first:
+      213: -5799916275100194820
+    second: title options (os) (1)_11
+  - first:
+      213: -3702787568138827729
+    second: title options (os) (1)_12
+  - first:
+      213: 5808359263148404440
+    second: title options (os) (1)_13
+  - first:
+      213: -5054369002098614421
+    second: title options (os) (1)_14
+  - first:
+      213: 624753894423267537
+    second: title options (os) (1)_15
+  - first:
+      213: -3765544710602518390
+    second: title options (os) (1)_16
+  - first:
+      213: -7630192597304781338
+    second: title options (os) (1)_17
+  - first:
+      213: 8707890911571132282
+    second: title options (os) (1)_18
+  - first:
+      213: 6351995165739563097
+    second: title options (os) (1)_19
+  - first:
+      213: -1906464655677101591
+    second: title options (os) (1)_20
+  - first:
+      213: -8352327651865304696
+    second: title options (os) (1)_21
+  - first:
+      213: 4578193364918923309
+    second: title options (os) (1)_22
+  - first:
+      213: -5501042254403647904
+    second: title options (os) (1)_23
+  - first:
+      213: -3256471135958161777
+    second: title options (os) (1)_24
+  - first:
+      213: 4392927570830431671
+    second: title options (os) (1)_25
+  - first:
+      213: -945666157168656751
+    second: title options (os) (1)_26
+  - first:
+      213: 5054901061050766195
+    second: title options (os) (1)_27
+  - first:
+      213: -3489613338006326828
+    second: title options (os) (1)_28
+  - first:
+      213: -3000764188225220927
+    second: title options (os) (1)_29
+  - first:
+      213: 5219677126452301696
+    second: title options (os) (1)_30
+  - first:
+      213: 5128655266530637954
+    second: title options (os) (1)_31
+  - first:
+      213: -2374040802397605364
+    second: title options (os) (1)_32
+  - first:
+      213: -7355691687213683795
+    second: title options (os) (1)_33
+  - first:
+      213: 442431841614174458
+    second: title options (os) (1)_34
+  - first:
+      213: 1648009324004856824
+    second: title options (os) (1)_35
+  - first:
+      213: -1896361962330878502
+    second: title options (os) (1)_36
+  - first:
+      213: 256452140573859526
+    second: title options (os) (1)_37
+  - first:
+      213: -3222545610469572545
+    second: title options (os) (1)_38
+  - first:
+      213: 8383361842883831100
+    second: title options (os) (1)_39
+  - first:
+      213: 5180687543328081831
+    second: title options (os) (1)_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: title options (os) (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 960
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bbeab8e8bcb4580800000000000000
+      internalID: -8841749630322558123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title options (os) (1)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 960
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b03f1d11cdf12370800000000000000
+      internalID: 8296190994452263094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
