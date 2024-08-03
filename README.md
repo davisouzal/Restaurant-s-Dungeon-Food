@@ -73,7 +73,6 @@ Em uma terra medieval de magia e fantasia, surge um elfo com o sonho de se torna
 ### Microtransações:
 
 -   Limitar velocidade de processos, incentivando gastos para acelerar o progresso.
--   Sistema de energia: limita o número de atividades por dia (baixa retenção).
 
 ## Público Alvo
 
