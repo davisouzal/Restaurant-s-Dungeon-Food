@@ -5,6 +5,7 @@ using UnityEngine;
 public class RisottoSlime : MonoBehaviour
 {
     public PlayerItems playerItems;
+    public AudioSource audiocraft;
 
     public void OnMouseDown()
     {
@@ -22,6 +23,7 @@ public class RisottoSlime : MonoBehaviour
             playerItems.setTotalRice(riceCount - 1); 
             playerItems.setTotalSlime(slimeCount - 1);
             playerItems.setTotalRisottoSlime(risottoCount + 1);
+            audiocraft.Play();
         }
 
         else

@@ -22,6 +22,10 @@ public class Slime : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (agent == null)
+        {
+            agent = GetComponent<NavMeshAgent>();
+        }
         currentHealth = totalHealth;
         player = FindObjectOfType<Player>();
         agent.updateRotation = false;
