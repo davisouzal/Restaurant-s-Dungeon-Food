@@ -54,7 +54,7 @@ public class ExitMenuController : MonoBehaviour
         // Retorna à cena de início
         Debug.Log("Loading Start Scene");
         Time.timeScale = 1; // Garante que o jogo não permaneça pausado na cena de início
-        SceneManager.LoadSceneAsync("Play"); // Altere "StartScene" para o nome da sua cena de início
+        SceneManager.LoadScene("Play");
     }
 
     void QuitGame()
